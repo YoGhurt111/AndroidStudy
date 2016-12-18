@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import static yoghurt.activitytest.R.layout.first_layout;
 
-public class FirstActivity extends AppCompatActivity {
+public class FirstActivity extends BaseActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -72,9 +72,16 @@ public class FirstActivity extends AppCompatActivity {
                 String data = "Hello SecondActivity";
                 Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
                 intent.putExtra("extra_data",data);*/
+                /*用于理解standard启动模式
+                Intent intent = new Intent(FirstActivity.this,FirstActivity.class);*/
+                /*用于理解singleInstance启动模式
+                Intent intent = new Intent(FirstActivity.this,SecondActivity.class);*/
                 //startActivity(intent);
+                /*有返回数据的调用SecondActivity
                 Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
-                startActivityForResult(intent,1);
+                startActivityForResult(intent,1);*/
+                //启动活动的最佳写法
+                SecondActivity.actionStart(FirstActivity.this,"data1","data2");
             }
         });
     }

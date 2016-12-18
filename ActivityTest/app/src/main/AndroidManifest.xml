@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity">
+        <activity android:name=".SecondActivity"
+            android:launchMode="singleInstance"
+            >
             <intent-filter>
                 <action android:name="yoghurt.activitytest.ACTION_START" />
                 <category android:name="android.intent.category.DEFAULT" />
