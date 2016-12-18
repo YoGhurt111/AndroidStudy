@@ -8,5 +8,22 @@
         android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is TextView" />
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#00ff00"
+        android:text="版权所有" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Button"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你的用户名"
+        android:maxLines="2"/>
 </LinearLayout>
