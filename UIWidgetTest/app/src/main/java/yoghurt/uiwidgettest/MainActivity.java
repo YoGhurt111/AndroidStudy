@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.button:
-                ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+                /*ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
                 progressDialog.setTitle("This is ProgressDialog");
                 progressDialog.setMessage("Loading...");
                 progressDialog.setCancelable(true);
-                progressDialog.show();
-                /*AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+                progressDialog.show();*/
+                AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setTitle("This is dialog");
                 dialog.setCancelable(false);
                 dialog.setMessage("Something Important.");
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     }
                 });
-                dialog.show();*/
+                dialog.show();
                 /*int progress = progressBar.getProgress();
                 progress = progress + 10;
                 progressBar.setProgress(progress);*/
