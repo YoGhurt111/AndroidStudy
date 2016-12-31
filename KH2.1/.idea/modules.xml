@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KH2.1.iml" filepath="$PROJECT_DIR$/KH2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calcutor/calcutor.iml" filepath="$PROJECT_DIR$/calcutor/calcutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridlayout/gridlayout.iml" filepath="$PROJECT_DIR$/gridlayout/gridlayout.iml" />
+    </modules>
+  </component>
+</project>
