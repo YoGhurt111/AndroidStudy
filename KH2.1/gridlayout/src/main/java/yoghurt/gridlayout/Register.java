@@ -3,8 +3,10 @@ package yoghurt.gridlayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.GridLayout;
 
 public class Register extends AppCompatActivity {
+    private GridLayout gridLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,5 +16,6 @@ public class Register extends AppCompatActivity {
         if (actionBar != null){
             actionBar.hide();
         }
+        gridLayout = (GridLayout) findViewById(R.id.gridlayout);
     }
 }
