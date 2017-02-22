@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/service_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:checked="true"
+            android:button="@null"
+            android:text="服务"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/help_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:button="@null"
+            android:text="求助"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/task_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="任务"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/message_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="消息"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/my_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="我的"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
